@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android = "http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="9"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    >
+
+    <RelativeLayout
+        android:id="@+id/RelativeLayout_before_login"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:paddingRight="12dp"
+        android:paddingLeft="12dp"
+        android:weightSum="1"
+        >
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="@null"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:gravity="center"
+            android:src="@drawable/ic_person">
+
+        </ImageView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:layout_weight="1"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:stateListAnimator="@null"
+            android:text="로그인 및 회원가입"
+            ></TextView>
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/TextView_notice"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:text="공지사항" />
+    <TextView
+        android:id="@+id/TextView_license"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:text="오픈소스 라이센스"/>
+    <TextView
+        android:id="@+id/TextView_question"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:text="문의사항"/>
+    <TextView
+        android:id="@+id/TextView_setting"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:text="언어 재설정"/>
+    <TextView
+        android:id="@+id/TextView_version"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:text="버전"/>
+
+</LinearLayout>

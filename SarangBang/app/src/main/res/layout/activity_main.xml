@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+
+        <Button
+            android:id="@+id/back_ImageView"
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/ic_back_button" />
+
+        <EditText
+            android:id="@+id/EditText_search"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+        <Button
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/ic_search" />
+
+    </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/viewContentOne"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent">
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:stretchColumns="*">
+            <TableRow>
+                <Button
+                    android:layout_height="100dp"
+                    android:text="서울특별시" />
+                <Button
+                    android:layout_height="match_parent"
+                    android:text="부산광역시"
+                    />
+            </TableRow>
+            <TableRow>
+                <Button
+                    android:layout_height="100dp"
+                    android:text="대구광역시" />
+                <Button
+                    android:layout_height="match_parent"
+                    android:text="인천광역시"
+                    />
+            </TableRow>
+            <TableRow>
+                <Button
+                    android:layout_height="100dp"
+                    android:text="광주광역시" />
+                <Button
+                    android:layout_height="match_parent"
+                    android:text="대전광역시"
+                    />
+            </TableRow>
+            <TableRow>
+                <Button
+                    android:layout_height="100dp"
+                    android:text="울산광역시" />
+                <Button
+                    android:layout_height="match_parent"
+                    android:text="경기도"
+                    />
+            </TableRow>
+            <TableRow>
+                <Button
+                    android:layout_height="100dp"
+                    android:text="강원도" />
+                <Button
+                    android:layout_height="match_parent"
+                    android:text="제주특별자치도"
+                    />
+            </TableRow>
+            <TableRow>
+                <Button
+                    android:layout_height="100dp"
+                    android:text="충척북도" />
+                <Button
+                    android:layout_height="match_parent"
+                    android:text="충청남도"
+                    />
+            </TableRow>
+            <TableRow>
+                <Button
+                    android:layout_height="100dp"
+                    android:text="전라북도" />
+                <Button
+                    android:layout_height="match_parent"
+                    android:text="전라남도"
+                    />
+            </TableRow>
+            <TableRow>
+                <Button
+                    android:layout_height="100dp"
+                    android:text="경상북도" />
+                <Button
+                    android:layout_height="match_parent"
+                    android:text="경상남도"
+                    />
+            </TableRow>
+
+
+        </TableLayout>
+    </ScrollView>
+
+
+
+
+</LinearLayout>
